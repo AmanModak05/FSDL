@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MyWebPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="contactForm" method="post" action="#" novalidate>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required minlength="6"><br>
+
+        <label for="mobile">Mobile Number: </label>
+        <input type="tel" id="mobile" name="mobile" inputmode="numeric" pattern="[0-9]{10}" required><br>
+
+        <div class="errors" aria-live="polite"></div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
