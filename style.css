@@ -90,6 +90,4 @@ button:active{transform:translateY(-1px)}
     label{margin-top:10px}
 }
 
-/* small utility to center the form contents inside HTML file */
-/* In case `form.html` doesn't wrap form in a container, support direct centering */
 body > form{max-width:520px}
